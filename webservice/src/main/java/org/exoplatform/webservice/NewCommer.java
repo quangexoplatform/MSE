@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2003-2010 eXo Platform SAS.
+ * Copyright (C) 2003-2012 eXo Platform SAS.
  *
  * This program is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Affero General Public License
@@ -14,27 +14,14 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.webservice.cs.bean;
-
-import java.util.Collection;
+package org.exoplatform.webservice;
 
 /**
  * Created by The eXo Platform SAS
  * Author : eXoPlatform
  *          exo@exoplatform.com
- * Jan 14, 2010  
+ * Apr 2, 2012  
  */
-public class ContactData {
- private Collection<String>info ;
-
- 
-public Collection<String> getInfo() {
-  return info;
-}
-
-public void setInfo(Collection<String> info) {
-  this.info = info;
-}
- 
- 
+public interface NewCommer {
+	  public void test();
 }
