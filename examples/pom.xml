@@ -6,10 +6,10 @@
     <artifactId>exo.mse.parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>exo.mse.webservice</artifactId>
+  <artifactId>exo.mse.examples</artifactId>
   <packaging>jar</packaging>
-  <name>eXo webservice</name>
-  <description>eXo webservice</description>
+  <name>eXo Webservice Examples</name>
+  <description>eXo Webservice Examples</description>
   <url>http://www.exoplatform.org</url>
   <dependencies>
     <dependency>
