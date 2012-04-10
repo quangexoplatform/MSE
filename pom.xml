@@ -72,6 +72,9 @@
     </dependency>
   </dependencies>
   <modules>
+    <module>services</module>
+    <module>administrator</module>
+    <module>config</module>
     <module>examples</module>
   </modules>
 </project>
