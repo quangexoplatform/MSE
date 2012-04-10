@@ -11,8 +11,9 @@
   <artifactId>mse</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>pom</packaging>
-  <name>mse</name>
+  <name>eXo MSE</name>
   <url>http://maven.apache.org</url>
+  <description>Parent POM for MSE projects.</description>
 
   <properties>
     <org.exoplatform.kernel.version>2.3.7-GA</org.exoplatform.kernel.version>
