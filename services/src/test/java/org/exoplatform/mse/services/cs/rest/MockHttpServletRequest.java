@@ -15,7 +15,7 @@
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
 
-package org.exoplatform.webservice.cs.rest;
+package org.exoplatform.mse.services.cs.rest;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -15,7 +15,7 @@
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
 
-package org.exoplatform.webservice.cs.rest;
+package org.exoplatform.mse.services.cs.rest;
 
 import org.exoplatform.commons.chromattic.ChromatticManager;
 import org.exoplatform.component.test.AbstractKernelTest;

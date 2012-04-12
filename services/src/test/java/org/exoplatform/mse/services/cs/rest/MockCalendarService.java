@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.webservice.cs.rest;
+package org.exoplatform.mse.services.cs.rest;
 
 import java.util.ArrayList;
 import java.util.HashMap;

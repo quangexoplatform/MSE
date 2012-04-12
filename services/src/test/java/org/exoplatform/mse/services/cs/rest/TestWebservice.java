@@ -15,7 +15,7 @@
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
 
-package org.exoplatform.webservice.cs.rest;
+package org.exoplatform.mse.services.cs.rest;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -34,7 +34,7 @@ import org.exoplatform.services.rest.impl.ContainerResponse;
 import org.exoplatform.services.rest.impl.MultivaluedMapImpl;
 import org.exoplatform.services.rest.impl.RuntimeDelegateImpl;
 import org.exoplatform.services.rest.tools.ByteArrayContainerResponseWriter;
-import org.exoplatform.webservice.cs.calendar.CalendarWebservice;
+import org.exoplatform.mse.services.cs.calendar.CalendarWebservice;
 
 /**
  * Created by The eXo Platform SARL Author : Volodymyr Krasnikov
