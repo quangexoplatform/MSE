@@ -12,20 +12,20 @@
   <packaging>pom</packaging>
   <name>eXo Mobile Server Extension</name>
   <description>eXo Mobile Server Extension</description>
-  <url>http://wiki.exoplatform.org/xwiki/bin/view/CS/</url>
+  <url>http://wiki.exoplatform.org</url>
   <scm>
-   <connection>scm:svn:http://svn.exoplatform.org/projects/cs/branches/2.2.x</connection>
-   <developerConnection>scm:svn:http://svn.exoplatform.org/projects/cs/branches/2.2.x</developerConnection>
-   <url>https://fisheye.exoplatform.org/browse/cs/branches/2.2.x</url>
+   <connection>scm:git:https://git.exoplatform.org/github/moved/mobile-server-extension</connection>
+   <developerConnection>scm:git:https://git.exoplatform.org/github/moved/mobile-server-extension</developerConnection>
+   <url>https://git.exoplatform.org/github/moved/mobile-server-extension</url>
   </scm>
   <issueManagement>
     <system>jira</system>
-    <url>https://jira.exoplatform.org/browse/CS</url>
+    <url>https://jira.exoplatform.org/browse/MSE</url>
   </issueManagement>
-  <ciManagement>
+  <!--ciManagement>
     <system>hudson</system>
     <url>https://ci.exoplatform.org/job/cs-2.2.x-ci/</url>
-  </ciManagement>
+  </ciManagement-->
   <properties>
     <org.exoplatform.kernel.version>2.3.7-GA</org.exoplatform.kernel.version>
     <org.exoplatform.core.version>2.4.7-GA</org.exoplatform.core.version>
@@ -132,7 +132,7 @@
     <!-- We enforce Java 6 to build to use Chromattic and APT -->
     <jdk.min.version>1.6</jdk.min.version>
     <!-- maven-release-plugin -->
-    <arguments>-Prelease,pkg-tomcat,arc-tomcat,run-its -Dgatein.working.dir=target</arguments>
+    <arguments>-Prelease</arguments>
   </properties>
   <dependencyManagement>
     <!-- TODO : import dependencyManagement of platform, instead of redefining those properties -->
