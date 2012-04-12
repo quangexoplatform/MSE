@@ -8,8 +8,8 @@
   </parent>
   <artifactId>exo.mse.services</artifactId>
   <packaging>jar</packaging>
-  <name>eXo Mobile Server Extension WebService</name>
-  <description>eXo Mobile Server Extension WebService</description>
+  <name>eXo MSE - Services</name>
+  <description>MSE services</description>
   <url>http://www.exoplatform.org</url>
   <dependencies>
     <dependency>

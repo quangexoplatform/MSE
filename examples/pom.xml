@@ -8,8 +8,8 @@
   </parent>
   <artifactId>exo.mse.examples</artifactId>
   <packaging>jar</packaging>
-  <name>eXo Webservice Examples</name>
-  <description>eXo Webservice Examples</description>
+  <name>eXo MSE - Examples</name>
+  <description>eXo MSE Examples</description>
   <url>http://www.exoplatform.org</url>
   <dependencies>
     <dependency>
