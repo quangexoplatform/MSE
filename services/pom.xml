@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.exoplatform.mse</groupId>
-    <artifactId>mse</artifactId>
+    <artifactId>exo.mse.parent</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>exo.mse.service</artifactId>
+  <artifactId>exo.mse.services</artifactId>
   <packaging>jar</packaging>
   <name>eXo Mobile Server Extension WebService</name>
   <description>eXo Mobile Server Extension WebService</description>
