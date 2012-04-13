@@ -19,5 +19,8 @@
   <component>
     <type>org.exoplatform.mse.services.cs.calendar.CalendarWebservice</type>
   </component>
+  <component>
+    <type>org.exoplatform.mse.services.test.HelloWorld</type>
+  </component>
   
 </configuration>
