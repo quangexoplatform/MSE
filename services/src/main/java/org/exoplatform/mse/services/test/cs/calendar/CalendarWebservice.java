@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.mse.services.cs.calendar;
+package org.exoplatform.mse.services.test.cs.calendar;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
@@ -58,8 +58,8 @@ import org.exoplatform.services.log.Log;
 import org.exoplatform.services.organization.OrganizationService;
 import org.exoplatform.services.rest.resource.ResourceContainer;
 import org.exoplatform.services.security.ConversationState;
-import org.exoplatform.mse.services.cs.bean.EventData;
-import org.exoplatform.mse.services.cs.bean.SingleEvent;
+import org.exoplatform.mse.services.test.cs.bean.EventData;
+import org.exoplatform.mse.services.test.cs.bean.SingleEvent;
 
 import com.sun.syndication.feed.synd.SyndContent;
 import com.sun.syndication.feed.synd.SyndContentImpl;

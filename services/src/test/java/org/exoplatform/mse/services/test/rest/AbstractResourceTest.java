@@ -15,7 +15,7 @@
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
 
-package org.exoplatform.mse.services.cs.rest;
+package org.exoplatform.mse.services.test.rest;
 
 import java.io.ByteArrayInputStream;
 import java.net.URI;
