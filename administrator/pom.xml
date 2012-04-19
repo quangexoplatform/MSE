@@ -3,10 +3,10 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>org.exoplatform.mse</groupId>
-    <artifactId>exo.mse.parent</artifactId>
+    <artifactId>mse</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>exo.mse.administrator</artifactId>
+  <artifactId>exo.exoplatform.mse.administrator</artifactId>
   <packaging>war</packaging>
   <name>eXo MSE - Administrator</name>
   <description>MSE administrator</description>
