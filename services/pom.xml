@@ -36,19 +36,7 @@
       <version>${commons-chain.version}</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
-      <groupId>rome</groupId>
-      <artifactId>rome</artifactId>
-      <scope>provided</scope>
-    </dependency>
     <!-- for exteds test -->
-    <dependency>
-      <groupId>org.exoplatform.cs</groupId>
-      <artifactId>exo.cs.eXoApplication.calendar.service</artifactId>
-      <version>${collaboration.version}</version>
-      <scope>provided</scope>
-    </dependency>
-
     <dependency>
       <groupId>org.exoplatform.portal</groupId>
       <artifactId>exo.portal.component.test.core</artifactId>

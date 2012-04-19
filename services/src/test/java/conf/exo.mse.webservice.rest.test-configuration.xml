@@ -13,13 +13,6 @@
    </component>
   <!-- custominze service to test -->
   <component>
-    <key>org.exoplatform.calendar.service.Calendar</key>
-    <type>org.exoplatform.mse.services.test.rest.MockCalendarService</type>
-  </component>
-  <component>
-    <type>org.exoplatform.mse.services.test.cs.calendar.CalendarWebservice</type>
-  </component>
-  <component>
     <type>org.exoplatform.mse.services.test.HelloWorld</type>
   </component>
   
