@@ -14,29 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.mse.services.test;
+package org.exoplatform.mse.services;
 
+import javax.ws.rs.core.Response;
 /**
  * Created by The eXo Platform SAS
  * Author : nguyen hong quang
  *          quangnh@exoplatform.com
- * Apr 13, 2012  
+ * Apr 19, 2012  
  */
-import javax.ws.rs.GET;
-import javax.ws.rs.Path;
-import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
-
-import org.exoplatform.services.rest.resource.ResourceContainer;
-
-@Path("/helloworld")
-public class HelloWorld implements ResourceContainer {
-
-	@GET
-	@Path("/sayHello/")
-	public Response sayHello() {
-		String responseContent = "Welcome to MSE project";
-		return Response.ok(responseContent, MediaType.TEXT_PLAIN).build();
-	}
-
+public interface SocialWS {
+	public Response test();
 }

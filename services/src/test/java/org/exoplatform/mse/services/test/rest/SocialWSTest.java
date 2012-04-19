@@ -19,7 +19,7 @@ package org.exoplatform.mse.services.test.rest;
 import javax.ws.rs.core.MultivaluedMap;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.ext.RuntimeDelegate;
-import org.exoplatform.mse.services.test.*;
+import org.exoplatform.mse.services.*;
 import org.exoplatform.services.log.ExoLogger;
 import org.exoplatform.services.log.Log;
 import org.exoplatform.services.rest.impl.ContainerResponse;
@@ -27,41 +27,38 @@ import org.exoplatform.services.rest.impl.MultivaluedMapImpl;
 import org.exoplatform.services.rest.impl.RuntimeDelegateImpl;
 import org.exoplatform.services.rest.tools.ByteArrayContainerResponseWriter;
 import org.exoplatform.container.*;
-
-
 /**
  * Created by The eXo Platform SAS
  * Author : nguyen hong quang
  *          quangnh@exoplatform.com
- * Apr 13, 2012  
+ * Apr 19, 2012  
  */
-public class HelloWorldTestCase extends AbstractResourceTest {
-	private HelloWorld helloWorld;
+public class SocialWSTest extends AbstractResourceTest{
+	private SocialWS socialWS;
 	static final String             baseURI = "";
 	public void setUp() throws Exception {
 		RuntimeDelegate.setInstance(new RuntimeDelegateImpl());
 		super.setUp();
 		ExoContainer myContainer = ExoContainerContext.getCurrentContainer();
-		helloWorld = (HelloWorld) myContainer.getComponentInstance(HelloWorld.class);
+		socialWS = (SocialWS) myContainer.getComponentInstance(SocialWS.class);
 
-		registry(helloWorld);
+		registry(socialWS);
 
 	}
-	public void testServiceHello() throws Exception{
+	public void testSocialWS() throws Exception{
 		MultivaluedMap<String, String> h = new MultivaluedMapImpl();
 		String username = "root";
 		h.putSingle("username", username);
-		Log log = ExoLogger.getLogger(HelloWorldTestCase.class.getName()); 
+		Log log = ExoLogger.getLogger(SocialWSTest.class.getName()); 
 		
 		String eventURI = "/helloworld/sayHello";
 		ByteArrayContainerResponseWriter writer = new ByteArrayContainerResponseWriter();
 		ContainerResponse response = service("GET", eventURI, baseURI, h, null, writer);
-		log.info(response.getEntity());
-		assertNotNull(response);
-		assertNotSame(Response.Status.NOT_FOUND, response.getStatus());
+		assertNotNull(response.getStatus());
+		//assertNotSame(Response.Status.NOT_FOUND, response.getStatus());
+		assertEquals(200, response.getStatus());
 	}
 	public void tearDown() throws Exception {
 		super.tearDown();
 	}
-
 }

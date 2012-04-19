@@ -14,7 +14,7 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.mse.services.dashboard;
+package org.exoplatform.mse.services;
 
 /**
  * Created by The eXo Platform SAS
@@ -22,6 +22,6 @@ package org.exoplatform.mse.services.dashboard;
  *          quangnh@exoplatform.com
  * Apr 19, 2012  
  */
-public interface Dashboard {
+public interface DashboardWS {
 	public void test();
 }

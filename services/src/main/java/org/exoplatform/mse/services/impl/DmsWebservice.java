@@ -14,7 +14,10 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.mse.services.social;
+package org.exoplatform.mse.services.impl;
+
+import org.exoplatform.mse.services.DmsWS;
+import org.exoplatform.services.rest.resource.ResourceContainer;
 
 /**
  * Created by The eXo Platform SAS
@@ -22,6 +25,12 @@ package org.exoplatform.mse.services.social;
  *          quangnh@exoplatform.com
  * Apr 19, 2012  
  */
-public interface Social {
-	public void test();
+public class DmsWebservice implements DmsWS, ResourceContainer{
+
+	@Override
+	public void test() {
+		// TODO Auto-generated method stub
+		
+	}
+
 }

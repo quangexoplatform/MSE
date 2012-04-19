@@ -14,7 +14,15 @@
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, see<http://www.gnu.org/licenses/>.
  */
-package org.exoplatform.mse.services.ecms;
+package org.exoplatform.mse.services.impl;
+
+import org.exoplatform.mse.services.SocialWS;
+import org.exoplatform.services.rest.resource.ResourceContainer;
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.core.MediaType;
+import javax.ws.rs.core.Response;
+import javax.ws.rs.core.Response.Status;
 
 /**
  * Created by The eXo Platform SAS
@@ -22,6 +30,17 @@ package org.exoplatform.mse.services.ecms;
  *          quangnh@exoplatform.com
  * Apr 19, 2012  
  */
-public interface DmsWS {
-	public void test();
+
+@Path("/helloworld")
+public class SocialWebservice implements SocialWS, ResourceContainer{
+
+	@GET
+	@Path("/sayHello/")
+	@Override
+	public Response test() {
+		// TODO Auto-generated method stub
+		String responseContent = "Welcome to MSE project?";
+	    return Response.ok(responseContent, MediaType.TEXT_PLAIN).build();
+	}
+
 }
