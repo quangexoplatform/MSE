@@ -242,4 +242,5 @@
     <module>administrator</module>
     <module>config</module>
   </modules>
+<!-- test -->
 </project>
