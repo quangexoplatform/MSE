@@ -21,7 +21,7 @@
     <system>jira</system>
     <url>https://jira.exoplatform.org/browse/MSE</url>
   </issueManagement>
-<!--test-->   
+<!--test all-->   
   <properties>
     <org.exoplatform.kernel.version>2.3.7-GA</org.exoplatform.kernel.version>
     <org.exoplatform.core.version>2.4.7-GA</org.exoplatform.core.version>
